@@ -1,0 +1,29 @@
+name: coolcats_crypto
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: 0.15.4
+  intl_translation: 0.16.4
+  http: 0.11.3+16
+  isolate: 1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.2.0"
+
+flutter_icons:
+  image_path: "assets/icon.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
