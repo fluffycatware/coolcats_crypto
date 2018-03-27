@@ -7,6 +7,8 @@
     <a href="https://flutter.io/" target="_blank"><img src="https://img.shields.io/badge/Flutter-SDK-3BB9FF.svg?longCache=true&style=for-the-badge" alt="Flutter"></a>
 </div>
 
+## About
+
 A CryptoCurrency value tracker application written in Dart for Flutter
 
 ## Building
