@@ -1,5 +1,4 @@
-// Data is sourced from https://api.coinmarketcap.com/v1/ticker/?limit=100
-/*
+/* Data is sourced from https://api.coinmarketcap.com/v1/ticker/?limit=100
 {
   "id": "bitcoin",
   "name": "Bitcoin",
