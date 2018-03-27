@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:coolcats_crypto/main.dart' as stocks;
-import 'package:coolcats_crypto/stock_data.dart' as stock_data;
+import 'package:coolcats_crypto/crypto/data.dart' as stock_data;
 
 Element findElementOfExactWidgetTypeGoingDown(Element node, Type targetType) {
   void walker(Element child) {
@@ -73,7 +73,7 @@ void main() {
     expect(find.text('Account Balance'), findsOneWidget);
 
     // check the colour of the icon - light mode
-    checkIconColor(tester, 'Stock List', Colors.purple.shade500); // theme primary color
+    checkIconColor(tester, 'Stock List', Colors.blue); // theme primary color
     checkIconColor(tester, 'Account Balance', Colors.black26); // disabled
     checkIconColor(tester, 'About', Colors.black45); // enabled
 

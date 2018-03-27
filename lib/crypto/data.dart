@@ -18,7 +18,6 @@
   "last_updated": "1522157968"
 },
 */
-
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';

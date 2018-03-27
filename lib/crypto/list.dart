@@ -1,11 +1,7 @@
-// Copyright 2015 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 import 'package:flutter/material.dart';
 
-import 'stock_data.dart';
-import 'stock_row.dart';
+import 'data.dart';
+import 'row.dart';
 
 class StockList extends StatelessWidget {
   const StockList({ Key key, this.stocks, this.onOpen, this.onShow, this.onAction }) : super(key: key);

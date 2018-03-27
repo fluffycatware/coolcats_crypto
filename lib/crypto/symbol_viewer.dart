@@ -1,11 +1,7 @@
-// Copyright 2015 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 import 'package:flutter/material.dart';
 
-import 'stock_arrow.dart';
-import 'stock_data.dart';
+import 'arrow.dart';
+import 'data.dart';
 
 class _StockSymbolView extends StatelessWidget {
   const _StockSymbolView({ this.stock, this.arrow });

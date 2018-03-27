@@ -4,7 +4,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:coolcats_crypto/main.dart' as stocks;
-import 'package:coolcats_crypto/stock_data.dart' as stock_data;
+import 'package:coolcats_crypto/crypto/data.dart' as stock_data;
 
 void main() {
   stock_data.StockData.actuallyFetchData = false;

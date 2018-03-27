@@ -41,6 +41,14 @@ Then run the following to debug with live reloading
 flutter run --debug
 ```
 
+### Testing
+
+To run the intergration tests, execute the following
+
+```bash
+flutter drive --target=test_driver/scroll_perf.dart
+```
+
 ## Interationalization
 
 This app has been internationalized (just enough to show how it's

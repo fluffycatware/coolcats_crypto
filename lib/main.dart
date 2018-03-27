@@ -15,12 +15,12 @@ import 'package:flutter/rendering.dart' show
   debugRepaintRainbowEnabled;
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'stock_data.dart';
-import 'stock_home.dart';
-import 'stock_settings.dart';
-import 'stock_strings.dart';
-import 'stock_symbol_viewer.dart';
-import 'stock_types.dart';
+import 'crypto/data.dart';
+import 'crypto/home.dart';
+import 'crypto/settings.dart';
+import 'crypto/strings.dart';
+import 'crypto/symbol_viewer.dart';
+import 'crypto/types.dart';
 
 class _StocksLocalizationsDelegate extends LocalizationsDelegate<StockStrings> {
   @override

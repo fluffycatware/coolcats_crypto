@@ -1,15 +1,12 @@
-// Copyright 2015 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart' show debugDumpRenderTree, debugDumpLayerTree, debugDumpSemanticsTree, DebugSemanticsDumpOrder;
 import 'package:flutter/scheduler.dart' show timeDilation;
-import 'stock_data.dart';
-import 'stock_list.dart';
-import 'stock_strings.dart';
-import 'stock_symbol_viewer.dart';
-import 'stock_types.dart';
+
+import 'data.dart';
+import 'list.dart';
+import 'strings.dart';
+import 'symbol_viewer.dart';
+import 'types.dart';
 
 typedef void ModeUpdater(StockMode mode);
 
@@ -241,8 +238,9 @@ class StockHomeState extends State<StockHome> {
 
   void _buyStock(Stock stock) {
     setState(() {
-      stock.percentChange = 100.0 * (1.0 / stock.lastSale);
-      stock.lastSale += 1.0;
+      //TODO Bring up purchase box
+//      stock.percentChange = 100.0 * (1.0 / stock.lastSale);
+//      stock.lastSale += 1.0;
     });
     _scaffoldKey.currentState.showSnackBar(new SnackBar(
       content: new Text('Purchased ${stock.symbol} for ${stock.lastSale}'),
@@ -278,7 +276,7 @@ class StockHomeState extends State<StockHome> {
     );
   }
 
-  static const List<String> portfolioSymbols = const <String>['AAPL','FIZZ', 'FIVE', 'FLAT', 'ZINC', 'ZNGA'];
+  static const List<String> portfolioSymbols = const <String>['BTC','ETH', 'XRP', 'BCH', 'LTC', 'EOS'];
 
   Widget buildSearchBar() {
     return new AppBar(
